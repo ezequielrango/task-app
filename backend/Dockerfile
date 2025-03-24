@@ -21,7 +21,8 @@ WORKDIR /app
 COPY --from=build /app /app
 
 # Instalar Prisma CLI
-RUN npm install -g prisma
+RUN npm install -g prisma && npx prisma generate
+
 
 # Exponer el puerto de la aplicación
 EXPOSE 3000
