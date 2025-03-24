@@ -22,7 +22,7 @@ cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 ```
 En el env del back, solo modificar la pass en las variables DATABASE_URL y POSTGRES_PASSWORD
-
+en DATABASE_URL QUITAR < >
 ### 3. Levantar los Servicios con Docker
 ```sh
 docker compose up -d
