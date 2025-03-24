@@ -10,7 +10,7 @@ Este proyecto es una pequeña aplicación de notas en un monorepo que incluye ta
 
 ### 1. Clonar el Repositorio
 ```sh
-git clone https://github.com/tu-usuario/task-app.git
+git clone https://github.com/ezequielrango/task-app.git
 cd task-app
 ```
 
