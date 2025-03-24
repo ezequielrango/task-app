@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./",  // Manténlo como rootDir para que todo el proyecto sea considerado
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",      // Archivos de la carpeta src
+    "prisma/**/*.ts"    // Archivos de Prisma
+  ],
+  "exclude": [
+    "node_modules"      // Excluir node_modules para evitar conflictos
+  ]
+}
