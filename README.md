@@ -21,6 +21,7 @@ En los directorios `backend` y `frontend` encontrarás archivos `.env.example`. 
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 ```
+En el env del back, solo modificar la pass en la variable DATABASE_URL
 
 ### 3. Levantar los Servicios con Docker
 ```sh
